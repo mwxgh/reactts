@@ -4,7 +4,7 @@ import React from 'react'
 const Meta = () => {
   return (
     <Head>
-      <title>mwx portfolio</title>
+      <title>nguyen hanh</title>
       <meta name="description" content="Portfolio" />
     </Head>
   )

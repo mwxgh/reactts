@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-20 shadow-xl z-[100]">
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image src="/assets/navBarLogo.png" alt="" width={150} height={50} className="ml-10" />
+        <Image src="/images/navBarLogo.png" alt="" width={150} height={50} className="ml-10" />
         <div className="mr-10">
           <ul className="hidden md:flex">
             <Link href="/">
@@ -50,7 +50,7 @@ const Navbar = () => {
         >
           <div>
             <div className="flex w-full items-center justify-between">
-              <Image src="/assets/navBarLogo.png" alt={''} width={120} height={50} />
+              <Image src="/images/navBarLogo.png" alt={''} width={120} height={50} />
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
